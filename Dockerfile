@@ -16,4 +16,6 @@ RUN pip install -r requirements.txt
 # COPY the rest of the application code to the image
 COPY . /code/
 
-RUN python3 manage.py runserver
+EXPOSE 8080:80
+
+CMD [ "python3", "manage.py", "runserver" ]
