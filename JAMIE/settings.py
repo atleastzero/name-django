@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'JAMIE.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'PASSWORD': 'postgres',
-        'HOST': 'db',
+        'NAME': 'db',
+        'USER': 'atleastzero',
+        'PASSWORD': '36^vBkcIe#ag',
+        'HOST': 'srv-captain--jamie-postgres-db',
         'PORT': 5432,
     }
 }
